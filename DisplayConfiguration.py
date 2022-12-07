@@ -1,0 +1,1 @@
+# Make a script to automate display configuration settings on startup.
