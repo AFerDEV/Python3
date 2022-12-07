@@ -22,7 +22,7 @@ print(Y23)
 print()
 
 # You can also pack and unpack lists. The first line is considered the packing phase,
-# and is denoted by the use of brackets. This is more memory intensive than tuples.
+## and is denoted by the use of brackets. This is more memory intensive than tuples.
 
 years = ["2022-2023", "2022", "2023"]
 YSN, Y22, Y23 = years
@@ -41,7 +41,7 @@ print(Y23)
 print()
 
 # declaring variables globally will work inside nad outside functions unless otherwise
-# defined within the function.
+## defined within the function.
 
 x = "awesome"
 
@@ -85,10 +85,10 @@ NONE:     NoneType
 
 # Each variable has a data type automatically assigned to it when the variable is declared.
 # If you can't identify the type, you can get the data type of any object by using the
-# "type()" function.
+## "type()" function.
 # You can also specify the data type yourself.
 # I'll be declaring these variables within a function in order to easily contain them for
-# demonstration purposes.
+## demonstration purposes.
 
 def myfunc():
     a = "Hello World"                          # str
@@ -168,13 +168,13 @@ print(type(c))
 print()
 
 # Notice when converting float to int, python always truncates and chops off the decimal,
-# effectively rounding 2.8 down to 2. You can round to nearest integer with round function.
+## effectively rounding 2.8 down to 2. You can round to nearest integer with round function.
 b = round(y)
 print(b)
 print()
 
 # Python has no random function, but it has a built-in module that behaves the same.
-# The number will be randomly generated within that range each time script.py is run.
+## The number will be randomly generated within that range each time script.py is run.
 
 import random
 print(random.randrange(1, 10))
